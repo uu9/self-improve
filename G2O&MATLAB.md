@@ -19,4 +19,11 @@ https://github.com/RainerKuemmerle/g2o
     make -j6  
     sudo make install
 
-跑一下示例p0_phase_1
+跑一下示例p0_phase_1  
+https://github.com/uu9/things/blob/main/src/p0_phase_1.zip  
+
+# 2、安装MATLAB
+
+# 3、编译库文件
+
+# 4、MATLAB调用库文件
