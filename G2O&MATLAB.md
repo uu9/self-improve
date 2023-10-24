@@ -16,5 +16,7 @@ https://github.com/RainerKuemmerle/g2o
     mkdir build  
     cd build  
     cmake ..  
-    make -j12  
+    make -j6  
     sudo make install
+
+跑一下示例p0_phase_1
