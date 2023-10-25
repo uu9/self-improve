@@ -62,11 +62,11 @@ https://github.com/uu9/things/blob/main/src/p0_phase_3.zip
 
 这个示例所使用的G2O模块比较单一，如果使用的功能更加复杂可能发现找不到动态链接库(so)的情况，可以手动链接  
 
-    (可选)查看当前已经加载的库
+    (可选) 查看当前已经加载的库
     cd path_to_matlab/bin/glnxa64
     ls | grep libg2o
 
-    (可选)查看G2O so文件
+    (可选) 查看G2O so文件
     cd /usr/lib/local
     ls | grep libg2o
 
