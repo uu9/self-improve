@@ -42,7 +42,7 @@ https://github.com/uu9/things/blob/main/src/p0_phase_2.zip
     mv libstdc++.so.6 libstdc++.so.6.bak
     ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 .
     
-到这里跑一下示例p0_phase_3应该可以正常调用G2O得到结果了  
+将编译的库文件复制到p0_phase_3根目录，跑一下示例p0_phase_3应该可以正常调用G2O得到结果了  
 https://github.com/uu9/things/blob/main/src/p0_phase_3.zip  
 
 如果没有结果有一些命令可以提供一些帮助  
@@ -54,13 +54,18 @@ https://github.com/uu9/things/blob/main/src/p0_phase_3.zip
     查看库链接情况
     system("ldd 库文件名.so")
 
-这个示例所使用的G2O模块比较单一，如果使用的功能更加复杂可能发现找不到动态链接库（so）的情况，可以手动链接  
+这个示例所使用的G2O模块比较单一，如果使用的功能更加复杂可能发现找不到动态链接库(so)的情况，可以手动链接  
 
-    （可选）查看当前已经加载的库
+    (可选)查看当前已经加载的库
     cd path_to_matlab/bin/glnxa64
     ls | grep libg2o
 
-    链接其他库
+    (可选)查看G2O so文件
+    cd /usr/lib/local
+    ls | grep libg2o
+
+    创建其他so文件软链接
+    ln -s /usr/lib/local/libg2o* path_to_matlab/bin/glnxa64
 
 G2O安装默认位置信息，可以在G2O的build目录下找到  
 https://github.com/uu9/things/blob/main/src/G2O_install_manifest.txt
