@@ -1,7 +1,7 @@
 # 版本信息
-MATLAB 2022a
-G2O Commit 42026db
-
+MATLAB 2022a  
+G2O Commit 42026db  
+https://github.com/uu9/things/blob/main/src/g2o-master.zip
 
 # Ubuntu改源
 https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/  
@@ -11,6 +11,7 @@ https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
 
 
 # 1、安装G2O
+直接使用G2O Commit 42026db或者下新版本    
 https://github.com/RainerKuemmerle/g2o
 
     sudo apt install cmake libeigen3-dev  
