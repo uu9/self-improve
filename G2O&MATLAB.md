@@ -61,4 +61,6 @@ https://github.com/uu9/things/blob/main/src/p0_phase_3.zip
     ls | grep libg2o
 
     链接其他库
-    
+
+G2O安装默认位置信息，可以在G2O的build目录下找到  
+https://github.com/uu9/things/blob/main/src/G2O_install_manifest.txt
