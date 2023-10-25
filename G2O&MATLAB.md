@@ -48,7 +48,7 @@ https://github.com/uu9/things/blob/main/src/p0_phase_2.zip
     mv libstdc++.so.6 libstdc++.so.6.bak
     ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 .
     
-将编译的库文件复制到p0_phase_3根目录，跑一下示例p0_phase_3应该可以正常调用G2O得到结果了  
+将编译的库文件和头文件复制到p0_phase_3根目录，跑一下示例p0_phase_3应该可以正常调用G2O得到结果了  
 https://github.com/uu9/things/blob/main/src/p0_phase_3.zip  
 
 如果没有结果有一些命令可以提供一些帮助  
