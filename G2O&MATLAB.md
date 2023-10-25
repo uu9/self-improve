@@ -1,3 +1,8 @@
+# 版本信息
+MATLAB 2022a
+G2O Commit 42026db
+
+
 # Ubuntu改源
 https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/  
 替换/etc/apt/sources.list内容   
