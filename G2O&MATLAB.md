@@ -23,6 +23,7 @@ https://github.com/RainerKuemmerle/g2o
 https://github.com/uu9/things/blob/main/src/p0_phase_1.zip  
 
 # 2、安装MATLAB
+快捷键更改在：预设-MATLAB-Keyboard-Shortcuts-Active Settings  
 
 # 3、编译库文件
 
