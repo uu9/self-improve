@@ -1,4 +1,5 @@
-udisksctl mount -b /dev/nvme0n1p5  
+blkid查看分区和label  
+udisksctl mount -b /dev/label_to_dsik  
 会挂载到/media/username/  
 
 gedit ~/.profile  
