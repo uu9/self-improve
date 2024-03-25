@@ -10,4 +10,4 @@ print(matplotlib.matplotlib_fname())
 看看目录在哪  
 
 然后把字体放到mpl-data\fonts\ttf  
-删除C:\Users\username\.matplotlib缓存，OK了  
+删除```C:\Users\username\.matplotlib```缓存，OK了  
